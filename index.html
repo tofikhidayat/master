@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Portofolio|tofik hidayat</title>
+<link rel="icon" type="img/png" href="asset/img/icon.png">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="asset/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="asset/css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="asset/css/main.style.css">
+<link rel="stylesheet" type="text/css" href="asset/css/masonry.css">
+<link rel="stylesheet" type="text/css" href="asset/ionicons/css/ionicons.min.css">
+<link rel="stylesheet" type="text/css" href="asset/css/main.style.css">
+<script type="text/javascript" src="asset/js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="asset/js/progresbar.js"></script>
+<script type="text/javascript" src="asset/js/main-scrool.js"></script>
+<script type="text/javascript" src="asset/js/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="asset/js/funtion.js"></script>
+<!-- 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+-->
+</head>
+<body  data-spy="scroll" data-target=".navbar" data-offset="500" onload="onloadFunction()">
+	<div id="loader" scrool="false"><div class="load-a"><div class="load-b"><div class="load-c"><div class="load-d"></div></div></div></div></div>
+	<nav class="navbar" id="navbar" style="border-radius: 0 !important">
+		<div class="container">
+			<div class=" navbar-header navbar-right">
+				<button type="button"  class="navbar-toggle pull-right" data-toggle="collapse" data-target="#navbar-list" style="position: relative !important; ">
+					<span class="icon-bar icon-bar-warning"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse 0" id="navbar-list" style="width: 100% !important">
+					<ul class="nav navbar-nav">
+						<li class="#"><a href="#banner">Home</a></li>
+						<li class=""><a href="#about" data-scroll="#about">About</a></li>
+						<li><a href="#works" data-scroll="#works">Works</a></li>
+						<li><a href="#skills" data-scroll="#skills">Skills</a></li>
+						<li><a href="#portofolio" data-scroll="#portofolio">Portofolio</a></li>
+						<li><a href="#contact" data-scroll="#contact" >Contact</a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	</nav>
+<!-----------popup---------------------->
+<div class="modal fade" id="01" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+          
+        </div>
+        <div class="modal-body">
+        	<div class="content-modal">
+          		<img src="asset/img/01.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="02" role="dialog" onclick="navbaropen()" >
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+   
+        </div>
+        <div class="modal-body">
+         <div class="content-modal">
+          		<img src="asset/img/02.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="03" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+          
+        </div>
+        <div class="modal-body">
+        <div class="content-modal">
+          		<img src="asset/img/03.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="04" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="content-modal">
+          		<img src="asset/img/04.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="05" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+        </div>
+        <div class="modal-body">
+        <div class="content-modal">
+          		<img src="asset/img/10.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="06" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+        
+        </div>
+        <div class="modal-body">
+          <div class="content-modal">
+          		<img src="asset/img/05.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="07" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="content-modal">
+          		<img src="asset/img/06.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="08" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+        
+        </div>
+        <div class="modal-body"   onclick="navbarclose()">
+        <div class="content-modal">
+          		<img src="asset/img/07.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="09" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"   onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="content-modal">
+          		<img src="asset/img/08.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="10" role="dialog" onclick="navbaropen()">
+    <div class="modal-dialog modal-lg" style="z-index: 999 !important ; display: block;">
+      <div class="modal-content"    onclick="navbarclose()">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="navbaropen()" >&times;</button>
+
+        </div>
+        <div class="modal-body" >
+          <div class="content-modal">
+          		<img src="asset/img/09.jpg">
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+ <!-----------popup---------------------->
+
+
+
+
+<!--------------------------------------------banner------------------------------->
+<div id="banner" class="banner">
+	<div class="container">	
+		<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 banner-title-position">
+			<div class="pull-right xs-text-center">
+				<h1 class="banner-title">I'am</h1>
+				<h1 class="banner-title">Front End Developer</h1>
+				<p class="banner-sub-title">A stunning collection of front end web components</p>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="pull">
+				<img src="asset/img/desktop-02.svg" class="animate-left">
+			</div>
+		</div>
+		</div>
+	</div> 
+</div>
+
+<!--------------------------------------------about me------------------------------->
+<div class="space-block"></div>
+<div id="about" class="content">
+	<div class="container">
+		<div class="row contaier">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-10  col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-1">
+				<div class="container-fluid">
+				<img  class="image-profile" src="asset/img/profile.png">
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="">
+				<h2 class="title">About Me</h2>
+				<p style="padding-top: 10px; " class="pharagrapt">
+					saya adalah seorang pelajar yang tertari pada bidang it khususnya pada bidanga pemrograman web, 
+					saat ini saya tinggal di sebuah daerah kecil di kota sukabumi,saat ini saya bersekolah si smkn 1 cibadak   
+
+				</p>
+				</div>
+				</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="">
+				<h2 class="title">Education</h2>
+				<p style="padding-top: 10px;" class="pharagrapt">
+				SDN guling jawa
+				<br>
+				2007-2013
+				<br>
+				SMP muhammadiyah 8 nagrak
+				<br>
+				2013 - 2017
+				<br>
+				SMKN 1 cibadak
+				<br>
+				2017 - 2020
+
+				</p>
+			</div></div>
+		</div>
+	</div>
+</div>
+<!---------------------------------------what i do------------------------------------>
+<div class="space-block"></div>
+<div class="content02">
+	<div class="container">
+		<div id="works" class="row">
+			<h2 class=" text-center  title ">What i do</h2>
+			<p class="sub-title text-center" style="padding-bottom: 20px;">some of the things I'm mastering right now
+</p>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
+				<div class="container-fluid">
+					<div class="image text-center">
+						<img src="asset/img/web.svg">
+					</div>
+					<h3 class="indentified-title text-center">web development</h3>
+					<p class="pharagrapt text-center">I can do web development both as a team as well as individuals</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="container-fluid">	
+					<div class="image"><img src="asset/img/design.svg"></div>
+					<h3 class="indentified-title text-center" >design</h3>
+					<p class="pharagrapt text-center">I am also a web designer who is still learning</p>
+				</div>	
+			</div>	
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="container-fluid">	
+					<div class="image">
+						<img src="asset/img/android.svg">
+					</div>
+					<h3 class="indentified-title text-center">android development</h3>
+					<p class="pharagrapt text-center">I am also a developer of mobile android based applications</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="container-fluid">
+					<div class="image">
+						<img src="asset/img/flash.svg">
+					</div>
+					<h3 class="indentified-title text-center text-center">animator</h3>
+					<p class="pharagrapt text-center">I am also an animator who used to work with adobe flash software</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="space-block"></div>
+<!---------------------------------------skills------------------------------------>
+<div class="skills content " id="skills">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12s">
+				<div class="container-fluid pull-right">
+				<img src="asset/img/skills-01.svg" style="padding-top: 40px;">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+			<h2 class="text-left  title ">My Skills</h2>
+			<p class="textleft sub-title">some of the capabilities <br>I have currently in the field of programming</p>
+			
+
+				
+				<label for="" id="pogress-label" class="identified" style="padding-top: 20px">html/css</label>
+				<div class="skillbar clearfix " data-percent="90%"  >
+	    		 <div class="skillbar-bar" style="background: #111;"></div>
+        		</div>
+	
+	  			
+	 			 <label for="" id="pogress-label" class="identified" style="padding-top: 15px">javascript/jquery</label>
+	 			 <div class="skillbar clearfix " data-percent="60%" >
+	    		 <div class="skillbar-bar" style="background: #111;"></div>
+        		</div>
+	
+	  		
+	 			
+	 			 <label for="" id="pogress-label" class="identified" style="padding-top: 15px">php</label>
+	 			 <div class="skillbar clearfix " data-percent="50%" >
+	    		 <div class="skillbar-bar" style="background: #111;"></div>
+        		</div>
+	
+	  			
+	 			 <label for="" id="pogress-label" class="identified" style="padding-top: 15px">c++/xml</label>
+	 			 <div class="skillbar clearfix " data-percent="80%">
+	    		 <div class="skillbar-bar" style="background: #111;"></div>
+        		</div>
+	
+	  			
+				
+			</div>		
+		</div>
+	</div>
+</div>
+
+<div class="space-block"></div>
+<div class="content02 portofolio" id="portofolio" style="width: 100%; margin: 0 auto; padding-left: 2.3%">
+
+	<div class="container">
+		<div class="">
+			<h2 class="text-center  title ">Recent Works</h2>
+			<p class=" sub-title text-center" style="margin: 0 !important; padding: 0 !important;">some of my current work</p>
+		</div>
+<!--------msonry------->
+ 
+	<div class="container " style="padding-bottom: 100px; padding-top: 40px;">
+			<div class="row">
+				<div class=" col-lg-3 col-md-4 col-sm-4 col-xs-12 col-01" ><img src="asset/img/01.jpg"> <div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#01" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-02"><img src="asset/img/02.jpg"> <div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#02" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-03" ><img src="asset/img/03.jpg"><div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#03" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-04"><img src="asset/img/04.jpg"><div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#04" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-05"><img src="asset/img/10.jpg"><div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#05" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-06"><img src="asset/img/05.jpg"><div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#06" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-07"><img src="asset/img/06.jpg"><div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#07" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-08"><img src="asset/img/07.jpg"><div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#08" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-09"><img src="asset/img/08.jpg"><div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#09" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-10"><img src="asset/img/09.jpg"><div class="hoverr"><div class="btn0"><button data-toggle="modal" onclick="navbarclose()" data-target="#10" class="btn"><i class="ion-android-search"></i></button></div></div></div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-------------------masonry----------------------->
+
+
+
+		</div>
+	</div>
+</div>	
+
+
+<div class="space-block"></div>
+<!----------------------------------------------------contactme------------------------------------------>
+<div class="contact content" id="contact">
+	<form class="container">
+		<h2 class="text-center title">Contact with me</h2>
+			<p class="text-center sub-title" style="padding: 0 !important; margin: 0 !important;">connect yourself with me</p>
+				<div class="form-row" style="padding-top: 20px;">
+					<div class="col-md-4 col-md-offset-2"><input class="form-control" type="text" id="name" name="name" placeholder="name"></div>
+					<div class="col-md-4" ><input type="email" name="email" placeholder="email" id="email"  class="form-control" ></div>
+				</div>
+				<div class="form-row">
+					<div class=" form-goup col-md-8 col-md-offset-2 ">
+						<textarea class="textarea form-control" id="message" rows="7" placeholder="message"></textarea>
+						</div>
+				</div>
+
+				<div class=" form-group col-md-8 col-md-offset-2">
+					<div class=" button-submit col pull-right">
+						<button type="button" class="btn btn-primary" onclick="myonclick()" style="top:10px; padding: 9px 10px !important">send message</button>
+					</div>
+				</div>
+	</form>
+</div>
+<div class="space-block"></div>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6  col-sm-6  col-xs-12 "><p style="color: #969696;"> &copycopyright 2017 tofik hidayat</p></div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div class="center">	 	
+					<a href="https://web.facebook.com/?_rdc=1&_rdr">	<i class="ion-social-facebook"></i></a>
+					<a href="https://www.instagram.com/?hl=id#reactivated">	<i class="ion-social-instagram"></i></a>
+					<a href="https://twitter.com/login?lang=id">	<i class="ion-social-twitter"></i></a>
+					<a href="https://plus.google.com/?hl=id">	<i class="ion-social-googleplus"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class='scrolltop myBtn'>
+    <div class='scroll'><i class="ion-chevron-up"></i></div>
+
+
+
+</body>
+
+<script type="text/javascript">
+  function goodbye(e) {
+	if(!e) e = window.event;
+	//e.cancelBubble is supported by IE - this will kill the bubbling process.
+	e.cancelBubble = true;
+	e.returnValue = 'You sure you want to leave?'; //This is displayed on the dialog
+
+	//e.stopPropagation works in Firefox.
+	if (e.stopPropagation) {
+		e.stopPropagation();
+		e.preventDefault();
+	}
+}
+window.onbeforeunload=goodbye;
+</script>
+
+</html>
